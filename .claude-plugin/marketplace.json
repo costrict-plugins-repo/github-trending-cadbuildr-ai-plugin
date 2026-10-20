@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cadbuildr-plugin-marketplace",
+  "version": "1.0.0",
+  "description": "CADbuildr plugin marketplace for Claude Code",
+  "owner": {
+    "name": "CADbuildr",
+    "email": "clement@cadbuildr.com"
+  },
+  "plugins": [
+    {
+      "name": "cadbuildr",
+      "description": "One click install of the CADbuildr Skills and MCP server",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "cadbuildr/cadbuildr-ai-plugin"
+      },
+      "homepage": "https://cadbuildr.com"
+    }
+  ]
+}
